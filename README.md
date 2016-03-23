@@ -22,6 +22,9 @@ seminars available:
  - `profession` contains the instruction for a seminar where the code of ethics 
    for computer engineering professionals are analysed and discussed in light 
     of actual scenarios.
+ - `netsurveil` focuses on the ethics behind network surveillance.
+ - `tracking` focuses on the ethics behind tracking users, e.g.\ for 
+   personalized advertisements.
 
 
 File Structure and Building

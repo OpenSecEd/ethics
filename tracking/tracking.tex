@@ -1,0 +1,99 @@
+% $Id$
+\documentclass[a4paper,nocourse]{miunasgn}
+\usepackage[utf8]{inputenc}
+\usepackage[english,swedish]{babel}
+\usepackage[hyphens]{url}
+\usepackage{hyperref}
+\usepackage{prettyref,varioref}
+\usepackage{natbib}
+\usepackage{listings}
+\usepackage[today,nofancy]{svninfo}
+\usepackage[natbib,varioref,prettyref,listings]{miunmisc}
+
+\svnInfo $Id$
+
+%\printanswers
+
+\courseid{DT130G}
+\course{Specialiserad applikationsutveckling för Android}
+\assignmenttype{Seminarium}
+\title{Säkerhet}
+\author{Daniel Bosk\footnote{%
+	Detta verk är tillgängliggjort under licensen Creative Commons 
+	Erkännande-DelaLika 2.5 Sverige (CC BY-SA 2.5 SE).
+	För att se en sammanfattning och kopia av licenstexten besök URL 
+	\url{http://creativecommons.org/licenses/by-sa/2.5/se/}.
+}}
+\date{\svnId}
+
+\begin{document}
+\maketitle
+\thispagestyle{foot}
+\tableofcontents
+
+
+\section{Introduktion}
+\label{sec:Introduktion}
+\noindent
+Då vår värld blir alltmer uppkopplad och information blir enklare att kopiera 
+ökar även behovet att skydda informationen.
+Informationen varierar mellan allt från semesterbilder till sekretessbelagd 
+data.
+
+Ett exempel som illustrerar behovet av att stödja användaren för att skydda sig 
+ges av \citet{Roberts2012wia}, där information om den norska kungafamiljens 
+geografiska position delades nästintill i realtid -- information som av 
+säkerhetsskäl normalt hålls hemlig.
+Information läckte ut genom att ett av barnen postade geotaggade bilder direkt 
+till Instagram.
+
+Samma säkerhetslucka kan ha stora konsekvenser även för vanliga människor, 
+trots att deras position normalt inte är sekretessbelagd, då det kan användas 
+exempelvis för att veta när huset är mest tillgängligt för inbrott.
+Ett proof-of-concept är WeKnowYourHouse.com \citep{Brading2012tpl}.
+
+
+\section{Syfte}
+\label{sec:Syfte}
+\noindent
+Detta seminarium handlar om att diskutera hur mycket ansvar utvecklare av olika 
+tjänster har för att skydda användare och vilka metoder som finns tillgängliga.
+Det syftar också till att ta upp till diskussion vilken information som 
+utvecklare får samla in genom användningen av en tjänst och vad som krävs för 
+att få samla in och lagra olika typer av information.
+
+Det övergripande syftet med detta seminarium sammanfattas i följande två 
+punkter:
+\begin{itemize}
+	\input{aims.tex}
+\end{itemize}
+
+
+\section{Läsanvisningar}
+\label{sec:Lasanvisningar}
+\noindent
+\input{literature.tex}
+
+
+\section{Genomförande}
+\noindent
+Läs igenom materialet och anteckna dina tankar under läsningen.
+Följande frågor kan verka som inspiration för dina funderingar kring 
+materialet:
+\begin{itemize}
+	\item Vilken information tycker du att applikationer etc. får samla in?
+	\item Hur ska informationen lagras?
+	\item Vem får använda informationen, och till vad?
+	\item Vilket stöd skulle du vilja ha från applikationer etc. för att kunna 
+		skydda dig?
+\end{itemize}
+
+
+\section{Examination}
+\label{sec:Examination}
+\noindent
+\emph{Aktivt} deltagande i seminariet krävs för godkänt betyg.
+
+
+\bibliography{literature}
+\end{document}
