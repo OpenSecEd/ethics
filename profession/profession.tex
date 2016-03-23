@@ -1,0 +1,128 @@
+\documentclass{llncs}
+\usepackage[utf8]{inputenc}
+\usepackage[swedish,english]{babel}
+\usepackage[hyphens]{url}
+\usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage{csquotes}
+\usepackage[natbib,style=numeric-comp,maxbibnames=99]{biblatex}
+\addbibresource{profession.bib}
+
+\title{Seminar: The Computer Engineer's Code of Ethics}
+\author{%
+  Daniel Bosk
+}
+\institute{%
+  Department of Information and Communication Systems\\
+  Mid Sweden University, Sundsvall
+}
+
+\begin{document}
+\maketitle
+
+
+\section{Introduction}
+
+Considering that our world becomes increasingly dependent on computer systems, 
+it is important that those of us who are capable of controlling the computer 
+systems do this in a responsible way.
+But what is a responsible way?
+This is the topic of ethics, the reasoning about moral obligations.
+There are a great many texts written on the subject, we will in this assignment 
+study some of the lighter ones.
+
+As an example, since our digital world allows the copying of information more 
+easily, more people do this.
+This can happen in the form of people using a service for publishing 
+photographs to friends, or to the entire world for that matter.
+Sometimes the consequences of this can be severe.
+For instance, when a child posted vacation pictures to 
+Instagram~\cite{Roberts2012wia}.
+This happened to be not any child, it was the child in the Norwegian royal 
+family.
+These images posted, did due to our technical development, contain the exact 
+GPS coordinates of the location where the picture was taken.
+The result being that the position of the royal family was published in almost 
+real-time, information which is normally strictly secret.
+
+This is also an issue for non-celebrities.
+And the question is, where ends the responsibility of the engineers who 
+contributed to these systems?
+Should they be morally obliged to ensure the user can make an informed choice?
+Or is that totally the responsibility of the user?
+What if the design does not let the user make an informed choice?
+
+We can then step it up a notch.
+In app stores, e.g.\ Google Play, there are occasionally apps found which 
+performs some morally questionable activities.
+An Android app, ``Brightest Flashlight'' by Goldenshores Technologies, which 
+could be found for free in the Play store, gathered data on users' locations 
+and device identifiers, which the company later sold to 
+advertisers~\cite{garber2014roundup}.
+
+Another, more draconian, example concerns manufacturers of surveillance 
+equipment, selling this equipment to authoritarian regimes for purposes of 
+surveillance, censoring and in general repressing the people, as is the case 
+for the companies Narus, BlueCoat Systems, Trovicor and 
+Cisco~\cite{effsurveil}.
+Narus sold equipment used for surveillance to the Egyptian government.
+BlueCoat's equipment was used in Syria.
+Germany-based Trovicor sold their technology to Bahrain; 
+\blockcquote{effsurveil}{dozens of activists were tortured before and after 
+  being shown transcripts of their text messages and phone conversations 
+  captured from this technology}.
+
+Is this type of engineering anywhere near ethically defensible?
+
+
+\section{Aims}
+
+This seminar aims to discuss the ethical issues regarding the problems 
+described above, i.e.\ the moral responsibility of engineers.
+After doing this assignment your should be able to:
+\begin{itemize}
+	\input{aims.tex}
+\end{itemize}
+
+
+\section{Reading}
+\label{sec:Reading}
+\input{literature.tex}
+
+
+\section{Assignment}
+\label{sec:Tasks}
+The first thing you should do is to analyse the cases presented in the texts 
+you have read, i.e.\ the NSA's mass surveillance and FBI's wish for Apple to 
+weaken the security of its products for the FBI\@.
+You should analyse them from the perspective of the codes of ethics that you 
+have read: which parts are \enquote{right} and which are \enquote{wrong}?
+Are there conflicts?
+Make sure to write down your conclusions and motivations.
+
+You are now going to position yourself as one of the engineers working for the 
+NSA or Apple.
+Prepare a document with two parts.
+The first part should contain arguments for why you should develop these 
+exploits or intentionally weaken security, the second should contain arguments 
+against developing these.
+Your arguments should have their base in the codes of ethics you have read 
+(include references), but also your own ethical values may be used in your 
+argumentation --- but make sure to note when they conflict!
+
+During the seminar, discuss your analyses and your positions.
+
+
+\section{Examination}
+\label{sec:Examination}
+This assignment is examined through active participation in a seminar and 
+a hand-in.
+To prepare for this seminar, follow the instructions in \cref{sec:Tasks}.
+Hand in the resulting document (analysis of the cases, your position) in the 
+course platform and also bring them to the seminar.
+Then you attend the seminar, see the schedule.
+You must participate actively to pass this assignment.
+
+
+\printbibliography{}
+\end{document}
