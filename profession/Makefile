@@ -3,7 +3,7 @@ all: profession.pdf
 
 FILES=		profession.tex aims.tex literature.tex profession.bib
 
-profession.pdf: ${FILES} llncs
+profession.pdf: ${FILES}
 
 
 INCLUDE_MAKEFILES=../makefiles
