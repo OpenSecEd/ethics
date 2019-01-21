@@ -1,4 +1,5 @@
 SUBDIR+=	profession
+SUBDIR+= 	security-society-seminar
 
 
 INCLUDE_MAKEFILES=makefiles

@@ -1,0 +1,115 @@
+\title{%
+  What's up with security?
+}
+\author{Daniel Bosk}
+\institute{%
+  KTH EECS
+  \and
+  MIUN IST
+}
+
+\mode<article>{\maketitle}
+\mode<presentation>{%
+  \begin{frame}
+    \maketitle
+  \end{frame}
+}
+
+\mode*
+
+\begin{abstract}
+  \input{abstract.tex}
+\end{abstract}
+
+
+\section{Introduction}
+
+Our world becomes increasingly dependent on computer systems, it is thus 
+important that those who can affect these systems do that in a responsible 
+way.
+But what is a responsible way, what are the limits?
+This is the topic of ethics, the reasoning about moral obligations.
+The purpose of this seminar is to discuss what those responsibilities are and 
+where the limits are.
+
+%There are various examples that illustrate the problems caused by lacking 
+%security.
+%For example, since our digital world allows the copying of information more 
+%easily, more people do this.
+%This can happen in the form of people using a service for publishing 
+%photographs to friends, or to the entire world for that matter.
+%Even this innocuous activity can cause problems:
+%for instance, when a child posted vacation pictures to 
+%Instagram~\cite{Roberts2012wia}.
+%This happened to be not any child, it reached the news only because the child 
+%was a member of the Norwegian royal family.
+%These images posted, did due to our technical development, contain the exact 
+%GPS coordinates of the location where the picture was taken.
+%The result was that the position of the royal family was published in almost 
+%real-time, information which is normally strictly secret.
+%However, this is also an issue for non-celebrities: a family was robbed in 
+%their house due to a sales advertisement~\cite{BlocketRobbery}.
+
+
+\section{Aims}
+
+This seminar aims for reflection of how security, or lack thereof, affects 
+products, people, society and discuss the responsibilities of engineers.
+After doing this assignment your should be able to:
+\begin{itemize}
+	\input{aims.tex}
+\end{itemize}
+
+
+\section{Reading}%
+\label{sec:Reading}
+
+\input{literature.tex}
+
+
+\section{Assignment}%
+\label{sec:Tasks}
+
+Search for some news articles about security: they could be articles about how 
+lack of security caused real problems.
+There are lots of such news stories out there, pick your favourite and make a 
+one-slide presentation (\eg a news front page).
+
+During the seminar you should present your news article: shortly summarize it 
+(less than five minutes), discuss why this is a problem (\eg what are the 
+consequences?), how easily or difficultly this could be prevented and finally 
+whose responsibility it is to prevent such problems.
+
+Next, read up on the Cambridge Analytica scandal~\cite[\eg][]{%
+  wired-cambridge-analytica,
+  guardian-cambridge-analytica,
+  nytimes-cambridge-analytica,
+  wp-cambridge-analytica,
+} and an analysis of the Mirai botnet incident~\cite{schneier-mirai}.
+
+Use the codes of ethics~\cite{acmcode,acmsecode,ieeecode} as a base to reflect 
+on the questions: Where does the responsibility of the engineers who 
+contributed to these systems end?
+Should they be morally obliged to ensure the user can make an informed choice?
+Or is that totally the responsibility of the user?
+What if the design does not let the user make an informed choice?
+What if the design intentionally deceives the user to make the \enquote{wrong} 
+choice?
+If there is no regulation in law, is anything allowed?
+
+
+\section{Assessment}%
+\label{Assessment}
+
+This assignment is assessed through active participation in a seminar.
+To prepare for this seminar, follow the instructions in \cref{sec:Tasks}.
+Write down your reasoning and discussion, that will be valuable support during 
+the seminar.
+You must participate actively to pass this assessment.
+
+
+%%% REFERENCES %%%
+
+\begin{frame}[allowframebreaks]
+  \printbibliography{}
+\end{frame}

@@ -23,6 +23,12 @@ seminars available:
    for computer engineering professionals are analysed and discussed in light 
     of actual scenarios.
 
+ - `security-society-seminar` contains the instructions for a seminar which 
+   aims to reflect on the role of security, its affect on society and the 
+   responsibility of engineers. It uses the codes of ethics of ACM and IEEE as 
+   a base for discussing the latter and relies on news and research on the 
+   effects on democracy as a base for the former.
+
 
 File Structure and Building
 ===============================================================================
