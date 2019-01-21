@@ -5,12 +5,12 @@ This is material for a seminar on ethics in security.  Its focus is on the
 security engineer's role and the ethical problems that might follow.
 
 The module is part of the [Open Security Education][OpenSecEd] project and the 
-maintainer is [XXX][Maintainer].  The latest release can be found under 
+maintainer is [Daniel Bosk][Maintainer].  The latest release can be found under 
 [releases][Releases].  You can safely link directly to the PDFs found there.
 
 [OpenSecEd]: https://github.com/OpenSecEd
-[Maintainer]: https://github.com/XXX
-[Releases]: https://github.com/OpenSecEd/XXX/releases
+[Maintainer]: https://github.com/dbosk
+[Releases]: https://github.com/OpenSecEd/ethics/releases
 
 
 Module Overview
@@ -48,9 +48,3 @@ In each directory the files are structured as follows:
  - <name>.bib contains the bibliography entries, thus this file can be included 
    along with the reading instructions.
 
-*To contribute*, please [fork the repository][ForkARepo], make your changes, 
-commit them and then create a [pull request][PullRequest] in the original 
-repository.
-
-[ForkARepo]: https://help.github.com/articles/fork-a-repo/
-[PullRequest]: https://help.github.com/articles/using-pull-requests/
