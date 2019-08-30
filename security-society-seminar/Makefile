@@ -1,11 +1,11 @@
 .PHONY: all
-all: notes.pdf slides.pdf
+all: instructions.pdf slides.pdf
 
 SRC+=		preamble.tex security-society-seminar.bib
 SRC+=		abstract.tex contents.tex
 
-notes.pdf: notes.tex
-notes.pdf: ${SRC}
+instructions.pdf: instructions.tex
+instructions.pdf: ${SRC}
 
 slides.pdf: slides.tex
 slides.pdf: ${SRC}
@@ -13,7 +13,7 @@ slides.pdf: ${SRC}
 
 .PHONY: clean
 clean:
-	${RM} notes.pdf slides.pdf
+	${RM} instructions.pdf slides.pdf
 
 
 INCLUDE_MAKEFILES=../makefiles
