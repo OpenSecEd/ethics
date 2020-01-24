@@ -68,18 +68,30 @@ After doing this assignment your should be able:
 \section{Assignment}%
 \label{sec:Tasks}
 
+\mode<presentation>{\subsection{Influence campaigns}}
+
 Read up on the influence campaigns during the 2016 US 
 election~\cite{inside-russian-influence-campaign}.
 Focus on the reliance on technologies:
 \begin{frame}
-  \mode<presentation>{Influence campaigns:}
-\begin{itemize}
-  \item Which technologies were used?
-  \item Were they used correctly or \enquote{hacked}?
-  \item What allowed this to happen?
-  \item \Etc
-\end{itemize}
+  \mode<presentation>{%
+    References:
+    \begin{itemize}
+      \item \fullcite{inside-russian-influence-campaign}
+    \end{itemize}
+
+    \begin{question}
+  }
+  \begin{itemize}
+    \item Which technologies were used?
+    \item Were they used correctly or \enquote{hacked}?
+    \item What allowed this to happen?
+    \item \Etc
+  \end{itemize}
+\mode<presentation>{\end{question}}
 \end{frame}
+
+\mode<presentation>{\subsection{Cambridge Analytica and Mirai}}
 
 Then you must read up on the Cambridge Analytica scandal~\cite[\eg][]{%
   wired-cambridge-analytica,
@@ -89,18 +101,44 @@ Then you must read up on the Cambridge Analytica scandal~\cite[\eg][]{%
 } and the Mirai botnet incident~\cite{schneier-mirai}.
 Search for some more news articles about security and how bad security can have 
 negative effects on a societal scale:
+\mode<presentation>{%
+  \begin{frame}
+    References:
+    \begin{itemize}
+      \item Wired: \citetitle{wired-cambridge-analytica},
+      \item Guardian: \citetitle{guardian-cambridge-analytica},
+      \item NYT: \citetitle{nytimes-cambridge-analytica},
+      \item WP: \citetitle{wp-cambridge-analytica}, and
+      \item \citetitle{schneier-mirai}
+    \end{itemize}
+  \end{frame}
+}
 \begin{frame}
-  \mode<presentation>{Cambridge Analytica and Mirai:}
+  \mode<presentation>{\begin{question}}
 \begin{itemize}
   \item What are the consequences of this weak security, what other effects can 
     this have on society?
   \item Give other examples.
 \end{itemize}
+\mode<presentation>{\end{question}}
 \end{frame}
 
-\begin{frame}
+\mode<presentation>{\subsection{Codes of ethics}}
+
+\mode<presentation>{%
+  \begin{frame}
+    References:
+    \begin{itemize}
+      \item \citetitle{acmcode},
+      \item \citetitle{acmsecode},
+      \item \citetitle{ieeecode}.
+    \end{itemize}
+  \end{frame}
+}
 Use the codes of ethics~\cite{acmcode,acmsecode,ieeecode} as a base to reflect 
 on the questions:
+\begin{frame}
+  \mode<presentation>{\begin{question}}
 \begin{itemize}
   \item Where does the responsibility of the engineers who contributed to these 
     systems end?
@@ -112,6 +150,7 @@ on the questions:
     \enquote{wrong} choice?
   \item If there is no regulation in law, is anything allowed?
 \end{itemize}
+\mode<presentation>{\end{question}}
 \end{frame}
 
 Do not limit yourself to this exact set of questions (for all three parts), 
@@ -132,27 +171,56 @@ To prepare for this seminar, follow the instructions in \cref{sec:Tasks}.
 You must participate actively to pass this assessment.
 
 The structure of the seminar will be as follows:
+\begin{enumerate}
+  \item We will divide the class into smaller groups (randomly), so not the 
+    working groups.
+    We want to learn any insights from other groups.
+
+  \item Each person in this random group present the conclusions from above, 
+    some of the more interesting news articles that you found.
+    Then discuss these conclusions and any differences.
+    In case of similar conclusions, you can see if you arrived at the same 
+    conclusion by similar reasoning or not.
+    (We will allocate 45 minutes to this, including a short break, 10--15 
+    minutes.)
+
+  \item Finally, we will summarize your experiences together in full class.
+    We will particularly aim for the question: what were the major 
+    differences, similarities, and what responsibility will you have as 
+    engineers?
+    (This will take around 20--30 minutes.)
+\end{enumerate}
+
+\mode<presentation>{%
 \begin{frame}
   \begin{enumerate}
-    \item We will divide the class into smaller groups (randomly), so not the 
-      working groups.
-      We want to learn any insights from other groups.
+    \item Divide into groups randomly.
 
-    \item Each person in this random group present the conclusions from above, 
-      some of the more interesting news articles that you found.
-      Then discuss these conclusions and any differences.
-      In case of similar conclusions, you can see if you arrived at the same 
-      conclusion by similar reasoning or not.
-      (We will allocate 45 minutes to this, including a short break, 10--15 
-      minutes.)
+    \item Group discussions, 45 minutes including 10--15 minutes break:
+      \begin{itemize}
+        \item Each person presents group's reasoning and conclusions to the 
+          random group.
+        \item Discuss differences, similarities \etc.
+      \end{itemize}
 
-    \item Finally, we will summarize your experiences together in full class.
-      We will particularly aim for the question: what were the major 
-      differences, similarities, and what responsibility will you have as 
-      engineers?
-      (This will take around 20--30 minutes.)
+    \item Summarize in full class.
   \end{enumerate}
 \end{frame}
+
+\begin{frame}
+  \begin{question}
+    \begin{itemize}
+      \item What were the major differences, similarities in opinions?
+    \end{itemize}
+  \end{question}
+
+  \begin{question}
+    \begin{itemize}
+      \item What responsibility will you have as engineers?
+    \end{itemize}
+  \end{question}
+\end{frame}
+}
 
 
 %%% REFERENCES %%%
